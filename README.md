@@ -15,8 +15,11 @@ languages:      Rust, Go, TypeScript, Python, Bash, Nix
 ```
 
 **Highlights**
-- Run a GitOps **k3s homelab** declared in a single NixOS flake (ArgoCD, sealed-secrets, MetalLB, Traefik, Prometheus).
+- Run a GitOps **k3s homelab** declared in a single NixOS flake (ArgoCD, Argo Workflows, sealed-secrets, MetalLB, Traefik, Prometheus).
+  → [Homelab case study](https://aethyriion.dev/projects/homelab#writeup)
 - [aethyriion.dev](https://aethyriion.dev): my site, a static Astro build that behaves like a TUI (vim keys included),
   deployed with Terraform to Cloudflare Workers from GitHub Actions.
+
+🛠️ *Coming soon: a public reference platform (Terraform + EKS + GitOps + observability, fully tested in CI).*
 
 📫 [stephen@aethyriion.dev](mailto:stephen@aethyriion.dev) · [résumé](https://aethyriion.dev/resume)
