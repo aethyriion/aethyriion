@@ -15,9 +15,6 @@ languages:      Rust, Go, TypeScript, Python, Bash, Nix
 ```
 
 **Highlights**
-
-- Cut CI build times from **40 → 8 minutes** with custom CircleCI runner images and deployment tests.
-- Scaled a live-streaming platform on Kubernetes from **1 to 200+ simultaneous streams** (~2,000 concurrent users).
 - Run a GitOps **k3s homelab** declared in a single NixOS flake (ArgoCD, sealed-secrets, MetalLB, Traefik, Prometheus).
 - [aethyriion.dev](https://aethyriion.dev): my site, a static Astro build that behaves like a TUI (vim keys included),
   deployed with Terraform to Cloudflare Workers from GitHub Actions.
